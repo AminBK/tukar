@@ -1,4 +1,4 @@
-Scapegoat
+Tukar
 =========
 
 A minimal node module providing utility methods to `escape` and `unescape` HTML entities
@@ -8,15 +8,15 @@ See the associated blog post, ["Creating and publishing a node.js module."](http
 ## Installation
 
 ```shell
-  npm install scapegoat --save
+  npm install tukar --save
 ```
 
 ## Usage
 
 ```js
-  var scapegoat = require('scapegoat')
-      escape = scapegoat.escape,
-      unescape = scapegoat.unescape;
+  var tukar = require('tukar')
+      escape = tukar.escape,
+      unescape = tukar.unescape;
 
   var html = '<h1>Hello World</h1>',
       escaped = escape(html),
